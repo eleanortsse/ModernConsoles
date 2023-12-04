@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Игры</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/navMenu.css">
+  <link rel="stylesheet" href="styles/games.css">
+  <link rel="icon" type="image" href="images/logoBurger.png">
+  <script src="https://kit.fontawesome.com/a753388bed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+<img class = "logo" src = "images/logotype.png" alt = "logo">
+
+<nav class ="navMenu">
+  <ul class = "nav__links">
+    <li><a href="index.html">Главная</a></li>
+    <li><a href="store.html">Аренда</a></li>
+    <li><a href="games.html">Игры</a></li>
+    <li><a href="feedback.html">Отзывы</a></li>
+    <a class = "cta" href = "infopage.html"><button>Контакты</button></a>
+  </ul>
+</nav>
+</header>
+
+
+<nav class = "navBurger">
+    <div class="containerBurger nav-container">
+        <input class="checkbox" type="checkbox" name="" id="" />
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>  
+        <div class="logoBurger">
+          <h1>Modern Consoles</h1>
+        </div>
+      <div class="menu-items">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="store.html">Аренда</a></li>
+        <li><a href="games.html">Игры</a></li>
+        <li><a href="feedback.html">Отзывы</a></li>
+        <li><a href="infopage.html">Контакты</a></li>
+      </div>
+    </div>
+</nav>
+
+<main>
+<div class="container"><h2 class = "heading-text">Популярно среди пользователей</h2></div>
+    <div class="containerCards">
+        <input type="radio" name="slider" id="item-1" checked>
+        <input type="radio" name="slider" id="item-2">
+        <input type="radio" name="slider" id="item-3">
+      <div class="cards">
+        <label class="card_game" for="item-1" id="song-1">
+          <img class = "game" src="images/bannergenshin.webp" alt="song">
+        </label>
+        <label class="card_game" for="item-2" id="song-2">
+          <img class = "game" src="images/kafkabanner.webp" alt="song">
+        </label>
+        <label class="card_game" for="item-3" id="song-3">
+          <img class = "game" src="images/bannerah.jpg" alt="song">
+        </label>
+      </div>
+    </div>
+    <script src="scripts/games.js"></script>
+    <div class="container"><h2 class = "heading-text">Играй в мир по своим правилам: выбирай игры с нами</h2></div>
+    <div class="container_games">
+      <div class="box">
+        <img src="images/genshin.jpeg">
+        <span>Genshin Impact</span>
+      </div>
+      <div class="box">
+        <img src="images/fortnite.jpeg">
+        <span>Fortnite</span>
+      </div>
+      <div class="box">
+        <img src="images/atomic_heart.jpg">
+        <span>Atomic Heart</span>
+      </div>
+      <div class="box">
+        <img src="images/fifaG.jpeg">
+        <span>FIFA</span>
+      </div>
+    </div>
+    <div class="container_games">
+      <div class="box">
+        <img src="images/lastofus.jpeg">
+        <span>Last of Us</span>
+      </div>
+      <div class="box">
+        <img src="images/dota.webp">
+        <span>Dota2</span>
+      </div>
+      <div class="box">
+        <img src="images/csgo.jpg">
+        <span>CS:GO</span>
+      </div>
+      <div class="box">
+        <img src="images/kafka.jpg">
+        <span>Honkai StarRail</span>
+      </div>
+    </div>
+
+  </main>
+  <footer class="footer">
+    <div class="container">
+     <div class="row">
+       <div class="footer-col">
+         <h4>Компания</h4>
+         <ul>
+           <li><a href="index.html">О Нас</a></li>
+           <li><a href="infopage.html">Адреса</a></li>
+           <li><a href="store.html">Скидки</a></li>
+         </ul>
+       </div>
+       <div class="footer-col">
+         <h4>Помощь</h4>
+         <ul>
+           <li><a href="infopage.html">FAQ</a></li>
+           <li><a href="infopage.html">Возврат</a></li>
+         </ul>
+       </div>
+       <div class="footer-col">
+         <h4>Консоли</h4>
+         <ul>
+           <li><a href="store.html">PlayStation</a></li>
+           <li><a href="store.html">Xbox</a></li>
+           <li><a href="store.html">Nintendo Switch</a></li>
+           <li><a href="store.html">Retro Genesis</a></li>
+         </ul>
+       </div>
+       <div class="footer-col">
+         <h4>Соцсети</h4>
+         <div class="social-links">
+           <a href="#"><i class="fab fa-vk"></i></a>
+           <a href="#"><i class="fab fa-telegram"></i></a>
+           <a href="#"><i class="fab fa-github"></i></a>
+           <a href="#"><i class="fab fa-youtube"></i></a>
+         </div>
+       </div>
+     </div>
+    </div>
+  
+  </footer>
+
+</body>
+</html>

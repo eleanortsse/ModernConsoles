@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Главная</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/navMenu.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="icon" type="image" href="images/logoBurger.png">
+  <script src="https://kit.fontawesome.com/a753388bed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+<img class = "logo" src = "images/logotype.png" alt = "logo">
+
+<nav class ="navMenu">
+  <ul class = "nav__links">
+    <li><a href="index.html">Главная</a></li>
+    <li><a href="store.html">Аренда</a></li>
+    <li><a href="games.html">Игры</a></li>
+    <li><a href="feedback.html">Отзывы</a></li>
+    <a class = "cta" href = "infopage.html"><button>Контакты</button></a>
+  </ul>
+</nav>
+</header>
+
+
+<nav class = "navBurger">
+    <div class="containerBurger nav-container">
+        <input class="checkbox" type="checkbox" name="" id="" />
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>  
+        <div class="logoBurger">
+          <h1>Modern Consoles</h1>
+        </div>
+      <div class="menu-items">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="store.html">Аренда</a></li>
+        <li><a href="feedback.html">Отзывы</a></li>
+        <li><a href="infopage.html">Контакты</a></li>
+      </div>
+    </div>
+</nav>
+
+
+<button class="notification" id="notification">
+  <i class="fa-regular fa-bell" style="color: #ffffff;"></i>
+  <div class="notif__num" id="notif_num">0</div>
+</button>
+<div class="popup">
+  <div class="popup__container" id="popup_container">
+    <div class="popup__item">
+      <h1 class="popup__title">Уведомления</h1>
+    </div>
+    <div class="popup__item" id="popup_product_list"></div>
+    <button class="popup__close" id="popup_close">&#10006;</button>
+  </div>
+</div>
+<script src="scripts/script_notif.js"></script>
+
+<main>
+<div class = "main_page">
+  <img class = "twins" src="images/atomic_heart.png" alt = "Atomic Heart">
+  <div class="mainText"><a><b>Играйте Без Границ</b><br>
+   Неограниченный доступ к миру игр и развлечений ждет вас. Мы предоставляем широкий выбор популярных игровых консолей и приставок, которые позволят вам погрузиться в увлекательные миры, будь то на PlayStation, Xbox, Nintendo Switch или другой платформе</a>
+   <a class = "cta" href = "infopage.html"><button>Оставить заявку</button></a></div>
+</div>
+
+<div class = "consolesLogo">
+  <img class = "logos" src="images/logos.png">
+</div>
+
+<div class = "news">
+  <ul class="cards">
+    <li>
+      <a href="" class="card">
+        <img src="images/atomic_heart.jpg" class="card__image" alt="" />
+        <div class="card__overlay">
+          <div class="card__header">
+            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+            <img class="card__thumb" src="images/Raiden_Shogun_Card.jpg" alt="" />
+            <div class="card__header-text">
+              <h3 class="card__title">Mindfish. Как устроены игры?</h3>            
+              <span class="card__status">1 час назад</span>
+            </div>
+          </div>
+          <p class="card__description">Как устроен мир Atomic Heart? Разберем подробно в этой статье</p>
+        </div>
+      </a>      
+    </li>
+    <li>
+      <a href="" class="card">
+        <img src="images/genshin.jpeg" class="card__image" alt="" />
+        <div class="card__overlay">        
+          <div class="card__header">
+            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+            <img class="card__thumb" src="images/Diona_Card.jpg" alt="" />
+            <div class="card__header-text">
+              <h3 class="card__title">Genshin Impact. От Mihoyo до Hoyoverse</h3>
+              <span class="card__status">3 часа назад</span>
+            </div>
+          </div>
+          <p class="card__description">Honkai StarRail, Genshin Impact и другие игры, в которые играет весь Китай</p>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="" class="card">
+        <img src="images/fortnite.jpeg" class="card__image" alt="" />
+        <div class="card__overlay">
+          <div class="card__header">
+            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+            <img class="card__thumb" src="images/Keqing_Card.jpg" alt="" />
+            <div class="card__header-text">
+              <h3 class="card__title">Fortnite. Все о мире игры</h3>
+              <span class="card__tagline">Разбираемся в Fortnite. Классика для геймеров</span>            
+              <span class="card__status">4 часа назад</span>
+            </div>
+          </div>
+          <p class="card__description">От сюжета до технических деталей. Разбираем мир игры Fortnite</p>
+        </div>
+      </a>
+    </li>
+   
+    <li>
+      <a href="" class="card">
+        <img src="images/ps5.jpg" class="card__image" alt="" />
+        <div class="card__overlay">
+          <div class="card__header">
+            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+            <img class="card__thumb" src="images/Hu_Tao_Card.jpg" alt="" />
+            <div class="card__header-text">
+              <h3 class="card__title">PS vs Xbox</h3>
+              <span class="card__status">1 день назад</span>
+            </div>          
+          </div>
+          <p class="card__description">Вечная борьба PS и Xbox. Что выбрать?</p>
+        </div>
+      </a>
+    </li> 
+    <li>
+      <a href="" class="card">
+        <img src="images/fortnite.jpeg" class="card__image" alt="" />
+        <div class="card__overlay">
+          <div class="card__header">
+            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+            <img class="card__thumb" src="images/Keqing_Card.jpg" alt="" />
+            <div class="card__header-text">
+              <h3 class="card__title">Fortnite. Все о мире игры</h3>
+              <span class="card__tagline">Разбираемся в Fortnite. Классика для геймеров</span>            
+              <span class="card__status">4 часа назад</span>
+            </div>
+          </div>
+          <p class="card__description">От сюжета до технических деталей. Разбираем мир игры Fortnite</p>
+        </div>
+        
+      </a>
+    </li> 
+    
+    <li>
+      <a href="" class="card">
+        <img src="images/atomic_heart.jpg" class="card__image" alt="" />
+        <div class="card__overlay">
+          <div class="card__header">
+            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+            <img class="card__thumb" src="images/Raiden_Shogun_Card.jpg" alt="" />
+            <div class="card__header-text">
+              <h3 class="card__title">Mindfish. Как устроены игры?</h3>            
+              <span class="card__status">1 час назад</span>
+            </div>
+          </div>
+          <p class="card__description">Как устроен мир Atomic Heart? Разберем подробно в этой статье</p>
+        </div>
+      </a>      
+    </li>
+    <li>
+      <a href="" class="card">
+        <img src="images/genshin.jpeg" class="card__image" alt="" />
+        <div class="card__overlay">        
+          <div class="card__header">
+            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+            <img class="card__thumb" src="images/Diona_Card.jpg" alt="" />
+            <div class="card__header-text">
+              <h3 class="card__title">Genshin Impact. От Mihoyo до Hoyoverse</h3>
+              <span class="card__status">3 часа назад</span>
+            </div>
+          </div>
+          <p class="card__description">Honkai StarRail, Genshin Impact и другие игры, в которые играет весь Китай</p>
+        </div>
+      </a>
+    </li>
+    
+    <li>
+      <a href="" class="card">
+        <img src="images/ps5.jpg" class="card__image" alt="" />
+        <div class="card__overlay">
+          <div class="card__header">
+            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+            <img class="card__thumb" src="images/Hu_Tao_Card.jpg" alt="" />
+            <div class="card__header-text">
+              <h3 class="card__title">PS vs Xbox</h3>
+              <span class="card__status">1 день назад</span>
+            </div>          
+          </div>
+          <p class="card__description">Вечная борьба PS и Xbox. Что выбрать?</p>
+        </div>
+      </a>
+    </li>   
+  </ul>
+</div>
+<script>
+  function minify(text, length) {
+      return text.slice(0, text.indexOf(' ', length)) + '...';
+  }
+
+  // Получаем все элементы с классом card_describ
+  var describElements = document.querySelectorAll('.card__description');
+
+  // Применяем функцию minify к каждому элементу
+  describElements.forEach(function(element) {
+      var originalText = element.textContent;
+      var minifiedText = minify(originalText, 50); // Указываем необходимую длину
+
+      // Заменяем оригинальный текст усеченным текстом
+      element.textContent = minifiedText;
+  });
+</script>
+<div class="container">
+  <h2 class="heading-text">Ваши фото</h2>
+  <ul class="image-gallery">
+    <li>
+      <img src="images/callofduty.jpg" >
+    </li>
+    <li>
+      <img src="images/clank.jpg" >
+    </li>
+    <li>
+      <img src="images/fifa.jpg">
+    </li>
+    <li>
+      <img src="images/godofwar.jpg" >
+    </li>
+    <li>
+      <img src="images/gta.jpg" >
+    </li>
+    <li>
+      <img src="images/fortnite.jpeg" >
+    </li>
+    <li>
+      <img src="images/astro.jpg" >
+    </li>
+    <li>
+      <img src="images/lastjune.jpg" >
+    </li>
+
+    <li>
+      <img src="images/ps.jpg" >
+    </li>
+    <li>
+      <img src="images/xboxfan.jpg" >
+    </li>
+    <li>
+      <img src="images/joy.jpg" >
+    </li>
+  </ul>
+</div>
+
+
+<div class="container">
+
+  <h2 class="heading-text">Обзор дня</h2>
+  <a href="https://vk.com/video-125413034_456244585" class="myvideo">
+    <!--<video controls="controls" height="100%" width="100%" class = "video_r" poster = "images/banner.jpg">
+      <source src = "images/2023 FNCS _ Global Champions Sitdown.mp4">
+    </video>-->
+    <iframe src="https://vk.com/video_ext.php?oid=-125413034&id=456244585&hash=7899838196a477db?loop=1;autoplay=1" width="100%" height="600px" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    <div class="vOverlay">
+      <div class="card__header">   
+        <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>             
+        <img class="video_thumb" src="images/Hu_Tao_Card.jpg" alt="" />
+        <h3 class = "card__title">Новое видео уже на канале!</h3>
+      </div>
+      <p class="video__description">"Fortnite" - это популярная видеоигра, разработанная и выпущенная компанией Epic Games. Игра была впервые представлена в 2017 году и стала феноменом в мире видеоигр благодаря своему уникальному комбинированию строительства, выживания и сражений в жанре "Battle Royale".
+      </p>       
+    </div>
+  </a>
+</div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+   <div class="row">
+     <div class="footer-col">
+       <h4>Компания</h4>
+       <ul>
+         <li><a href="index.html">О Нас</a></li>
+         <li><a href="infopage.html">Адреса</a></li>
+         <li><a href="store.html">Скидки</a></li>
+       </ul>
+     </div>
+     <div class="footer-col">
+       <h4>Помощь</h4>
+       <ul>
+         <li><a href="infopage.html">FAQ</a></li>
+         <li><a href="infopage.html">Возврат</a></li>
+       </ul>
+     </div>
+     <div class="footer-col">
+       <h4>Консоли</h4>
+       <ul>
+         <li><a href="store.html">PlayStation</a></li>
+         <li><a href="store.html">Xbox</a></li>
+         <li><a href="store.html">Nintendo Switch</a></li>
+         <li><a href="store.html">Retro Genesis</a></li>
+       </ul>
+     </div>
+     <div class="footer-col">
+       <h4>Соцсети</h4>
+       <div class="social-links">
+         <a href="#"><i class="fab fa-vk"></i></a>
+         <a href="#"><i class="fab fa-telegram"></i></a>
+         <a href="#"><i class="fab fa-github"></i></a>
+         <a href="#"><i class="fab fa-youtube"></i></a>
+       </div>
+     </div>
+   </div>
+  </div>
+
+</footer>
+
+</body>
+</html>

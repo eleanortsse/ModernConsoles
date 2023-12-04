@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Аренда</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/navMenu.css">
+  <link rel="stylesheet" href="styles/store.css">
+  <link rel="icon" type="image" href="images/logoBurger.png">
+  <script src="https://kit.fontawesome.com/a753388bed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+<img class = "logo" src = "images/logotype.png" alt = "logo">
+<nav class ="navMenu">
+  <ul class = "nav__links">
+    <li><a href="index.html">Главная</a></li>
+    <li><a href="store.html">Аренда</a></li>
+    <li><a href="games.html">Игры</a></li>
+    <li><a href="feedback.html">Отзывы</a></li>
+    <a class = "cta" href = "infopage.html"><button>Контакты</button></a>
+  </ul>
+</nav>
+</header>
+
+
+<nav class = "navBurger">
+    <div class="containerBurger nav-container">
+        <input class="checkbox" type="checkbox" name="" id="" />
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>  
+        <div class="logoBurger">
+          <h1>Modern Consoles</h1>
+        </div>
+      <div class="menu-items">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="store.html">Аренда</a></li>
+        <li><a href="games.html">Игры</a></li>
+        <li><a href="feedback.html">Отзывы</a></li>
+        <li><a href="infopage.html">Контакты</a></li>
+      </div>
+    </div>
+</nav>
+
+<main>
+<div class="container">
+    <div class = "filter">
+    <h2 class="heading-text">Каталог</h2>
+    <label for="sortSelect">Сортировать</label>
+        <select id="sortSelect">
+            <option value="default">по умолчанию</option>
+            <option value="asc">по возрастанию цены</option>
+            <option value="desc">по убыванию цены</option>
+        </select>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <div class="card__top">
+            <button class = "card__add"><i class="fa-solid fa-cart-shopping"></i></button>
+          <a href="#" class="card__image">
+            <img
+              src="images/store1.jpg"
+              alt="PlayStation 5"
+            />
+          </a>
+          <div class="card__label">-10%</div>
+        </div>
+        <div class="card__bottom">
+          <div class="card__prices">
+            <div class="card__price card__price--discount">1800</div>
+            <div class="card__price card__price--common">2000</div>
+          </div>
+          <a href="#" class="card__title">
+            Игровая приставка PlayStation 5 + 2 игры
+          </a>
+          
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__top">
+            <button class = "card__add"><i class="fa-solid fa-cart-shopping"></i></button>
+          <a href="#" class="card__image">
+            <img
+              src="images/store2.jpg"
+              alt="Nintendo Switch"
+            />
+          </a>
+          <div class="card__label">-10%</div>
+        </div>
+        <div class="card__bottom">
+          <div class="card__prices">
+            <div class="card__price card__price--discount">1350</div>
+            <div class="card__price card__price--common">1500</div>
+          </div>
+          <a href="#" class="card__title">
+            Игровая приставка Nintendo Switch QLED 
+          </a>
+          
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card__top">
+            <button class = "card__add"><i class="fa-solid fa-cart-shopping"></i></button>
+          <a href="#" class="card__image">
+            <img
+              src="images/store3.jpg"
+              alt="Xbox"
+            />
+          </a>
+          <div class="card__label">-10%</div>
+        </div>
+        <div class="card__bottom">
+          <div class="card__prices">
+            <div class="card__price card__price--discount">1500</div>
+            <div class="card__price card__price--common">1350</div>
+          </div>
+          <a href="#" class="card__title">
+            Игровая приставка Xbox + 2 игры
+          </a>
+          
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__top">
+            <button class = "card__add"><i class="fa-solid fa-cart-shopping"></i></button>
+          <a href="#" class="card__image">
+            <img
+              src="images/store4.jpeg"
+              alt="MSI"
+            />
+          </a>
+          <div class="card__label">-10%</div>
+        </div>
+        <div class="card__bottom">
+          <div class="card__prices">
+            <div class="card__price card__price--discount">1800</div>
+            <div class="card__price card__price--common">2000</div>
+          </div>
+          <a href="#" class="card__title">
+            Игровой Ноутбук MSI, NVidia GetForce 3060TI
+          </a>
+          
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__top">
+            <button class = "card__add"><i class="fa-solid fa-cart-shopping"></i></button>
+          <a href="#" class="card__image">
+            <img
+              src="images/store5.jpg"
+              alt="Retro Genesis"
+            />
+          </a>
+          <div class="card__label">-10%</div>
+        </div>
+        <div class="card__bottom">
+          <div class="card__prices">
+            <div class="card__price card__price--discount">900</div>
+            <div class="card__price card__price--common">1000</div>
+          </div>
+          <a href="#" class="card__title">
+            Игровая приставка Retro Genesis + 2 игры
+          </a>
+          
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__top">
+            <button class = "card__add"><i class="fa-solid fa-cart-shopping"></i></button>
+          <a href="#" class="card__image">
+            <img
+              src="images/store6.jpg"
+              alt="PlayStation 4"
+            />
+          </a>
+          <div class="card__label">-10%</div>
+        </div>
+        <div class="card__bottom">
+          <div class="card__prices">
+            <div class="card__price card__price--discount">1485</div>
+            <div class="card__price card__price--common">1650</div>
+          </div>
+          <a href="#" class="card__title">
+           Игровая приставка PlayStation 4 + 2 игры</a
+          >
+          
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card__top">
+            <button class = "card__add"><i class="fa-solid fa-cart-shopping"></i></button>
+          <a href="#" class="card__image">
+            <img
+              src="images/store7.jpeg"
+              alt="Геймпад"
+            />
+          </a>
+          <div class="card__label">-10%</div>
+        </div>
+        <div class="card__bottom">
+          <div class="card__prices">
+            <div class="card__price card__price--discount">450</div>
+            <div class="card__price card__price--common">500</div>
+          </div>
+          <a href="#" class="card__title">
+            Беспроводные игровые геймпады</a
+          >
+          
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__top">
+            <button class = "card__add"><i class="fa-solid fa-cart-shopping"></i></button>
+          <a href="#" class="card__image">
+            <img
+              src="images/stote8.jpg"
+              alt="Mouse"
+            />
+          </a>
+          <div class="card__label">-17%</div>
+        </div>
+        <div class="card__bottom">
+          <div class="card__prices">
+            <div class="card__price card__price--discount">250</div>
+            <div class="card__price card__price--common">300</div>
+          </div>
+          <a href="#" class="card__title">
+           Игровые компьютерные мыши</a
+          >
+          
+        </div>
+    </div>
+</div>
+    <script>
+        // Получаем все карточки
+        const cardsContainer = document.querySelector('.cards');
+        const cardsDefault = Array.from(cardsContainer.querySelectorAll('.card'));
+        const cards = Array.from(cardsContainer.querySelectorAll('.card'));
+
+        // Функция для сортировки карточек по цене (возрастание)
+        function sortByPriceAsc() {
+            cards.sort((a, b) => {
+                const priceA = parseInt(a.querySelector('.card__price--discount').textContent.replace(/\s/g, ''), 10);
+                const priceB = parseInt(b.querySelector('.card__price--discount').textContent.replace(/\s/g, ''), 10);
+                return priceA - priceB;
+            });
+
+            // Очищаем контейнер и добавляем отсортированные карточки
+            cards.forEach(card => cardsContainer.appendChild(card));
+        }
+
+        // Функция для сортировки карточек по цене (убывание)
+        function sortByPriceDesc() {
+            cards.sort((a, b) => {
+                const priceA = parseInt(a.querySelector('.card__price--discount').textContent.replace(/\s/g, ''), 10);
+                const priceB = parseInt(b.querySelector('.card__price--discount').textContent.replace(/\s/g, ''), 10);
+                return priceB - priceA;
+            });
+
+            // Очищаем контейнер и добавляем отсортированные карточки
+            cards.forEach(card => cardsContainer.appendChild(card));
+        }
+
+        // Функция для обработки выбора в combobox и сортировки
+        function handleSelectChange() {
+            const sortSelect = document.getElementById('sortSelect');
+            sortSelect.addEventListener('change', () => {
+                const selectedValue = sortSelect.value;
+                if (selectedValue === 'asc') {
+                    sortByPriceAsc();
+                } else if (selectedValue === 'desc') {
+                    sortByPriceDesc();
+                } else {
+                    // Если выбрано "По умолчанию", возвращаем карточки в исходный порядок
+                    cardsDefault.forEach(card => cardsContainer.appendChild(card));
+                }
+            });
+        }
+        // Вызываем функцию обработки combobox при загрузке страницы
+        handleSelectChange();
+    </script>
+</div>
+
+<button class="cart" id="cart">
+  <i class="fa-solid fa-bag-shopping" style="color: #ffffff; font-size: 2rem;"></i>
+  <div class="cart__num" id="cart_num">0</div>
+</button>
+<div class="popup">
+  <div class="popup__container" id="popup_container">
+    <div class="popup__item">
+      <h1 class="popup__title">Оформление заказа</h1>
+    </div>
+    <div class="popup__item" id="popup_product_list"></div>
+    <div class="popup__item">
+      <div class="popup__cost">
+        <h2 class="popup__cost-title">Итого</h2>
+        <output class="popup__cost-value" id="popup_cost">0</output>
+      </div>
+      <div class="popup__cost">
+        <h2 class="popup__cost-title">Скидка</h2>
+        <output class="popup__cost-value" id="popup_discount">0</output>
+      </div>
+      <div class="popup__cost">
+        <h2 class="popup__cost-title">Итого со скидкой</h2>
+        <output class="popup__cost-value" id="popup_cost_discount"
+          >0</output
+        >
+      </div>
+    </div>
+    <button class="popup__close" id="popup_close">&#10006;</button>
+  </div>
+</div>
+<script src="scripts/script_store.js"></script>
+</main>
+<footer class="footer">
+  <div class="container">
+   <div class="row">
+     <div class="footer-col">
+       <h4>Компания</h4>
+       <ul>
+         <li><a href="index.html">О Нас</a></li>
+         <li><a href="infopage.html">Адреса</a></li>
+         <li><a href="store.html">Скидки</a></li>
+       </ul>
+     </div>
+     <div class="footer-col">
+       <h4>Помощь</h4>
+       <ul>
+         <li><a href="infopage.html">FAQ</a></li>
+         <li><a href="infopage.html">Возврат</a></li>
+       </ul>
+     </div>
+     <div class="footer-col">
+       <h4>Консоли</h4>
+       <ul>
+         <li><a href="store.html">PlayStation</a></li>
+         <li><a href="store.html">Xbox</a></li>
+         <li><a href="store.html">Nintendo Switch</a></li>
+         <li><a href="store.html">Retro Genesis</a></li>
+       </ul>
+     </div>
+     <div class="footer-col">
+       <h4>Соцсети</h4>
+       <div class="social-links">
+         <a href="#"><i class="fab fa-vk"></i></a>
+         <a href="#"><i class="fab fa-telegram"></i></a>
+         <a href="#"><i class="fab fa-github"></i></a>
+         <a href="#"><i class="fab fa-youtube"></i></a>
+       </div>
+     </div>
+   </div>
+  </div>
+
+</footer>
+
+</body>
+</html>
